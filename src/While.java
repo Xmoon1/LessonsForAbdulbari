@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+
+/**
+ * @author John Connor
+ * <h1>WHILE loop</h1>
+ */
 public class While {
     public static void main(String[] args) {
 //        int number = 0;
@@ -45,6 +50,7 @@ public class While {
             i++;
         }
 
-        System.out.println(i);
+
+
     }
 }
