@@ -1,3 +1,5 @@
+package com.example;
+
 import java.util.Scanner;
 
 
@@ -26,7 +28,6 @@ public class While {
 //            System.out.println(number);
 //        }while (number<10);
 
-
         // Task1
 
         Scanner input = new Scanner(System.in);  // Camel case
@@ -49,8 +50,6 @@ public class While {
         while (!(number % i == 0)){
             i++;
         }
-
-
 
     }
 }

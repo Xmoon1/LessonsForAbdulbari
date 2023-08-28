@@ -1,3 +1,5 @@
+package com.example;
+
 import java.util.Scanner;
 
 /**
@@ -9,7 +11,7 @@ public class IfStatement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         /*
-                if(<условие1>){
+               if(<условие1>){
                     <тело>
                }else if(<условие2>){
                <тело2>
