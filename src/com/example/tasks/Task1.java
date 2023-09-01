@@ -1,5 +1,6 @@
 package com.example.tasks;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Task1 {
