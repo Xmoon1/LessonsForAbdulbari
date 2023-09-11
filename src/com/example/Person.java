@@ -14,7 +14,6 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-
     public Person(){}
 
     public void showInfo() {
@@ -49,6 +48,13 @@ public class Person {
         return "My name is " + name + ", age: " + age;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public int getBirthYear(){
         return 2023-age;
