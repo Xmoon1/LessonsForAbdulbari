@@ -1,27 +1,20 @@
 package com.example;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
    public static void main(String[] args) {
-      Person person = new Person("John", 21);
       Dog dog = new Dog();
+      Cat cat = new Cat();
 
-      System.out.println(dog.sleep());
-      System.out.println(dog.makeSound());
-   }
-}
-
-class Person{
-   private String name;
-   private int age;
-
-
-   public Person(String name, int age) {
-      this.name = name;
-      this.age = age;
+      test(dog);
+      test(cat);
    }
 
-   @Override
-   public String toString() {
-      return name + " " + age;
+   public static void test(Animal animal){
+      animal.makeSound();
+      animal.sleep();
    }
 }
