@@ -1,20 +1,22 @@
 package com.example;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-   public static void main(String[] args) {
-      Dog dog = new Dog();
-      Cat cat = new Cat();
+   public static void main(String[] args){
+         Scanner scanner = new Scanner(System.in);
+         double number1 = scanner.nextInt();
+         double number2 = scanner.nextInt();
 
-      test(dog);
-      test(cat);
+//      System.out.println((double)3/2);
+
+
    }
 
-   public static void test(Animal animal){
-      animal.makeSound();
-      animal.sleep();
+   public static int calculate(int num1, int num2, String operation){
+      // your code here
+      return 0;
    }
+
+
 }
